@@ -1,14 +1,46 @@
 # kurdish_localization
 
-A new Flutter package project.
+This package provides localization support for Kurdish locale.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Depend on it
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Add this to your package's pubspec.yaml file:
+
+```
+dependencies:
+  kurdish_localization: ^0.0.1
+
+```
+### Install it
+
+You can install packages from the command line:
+
+with Flutter:
+
+```
+$ flutter pub get
+```
+
+### Import it
+
+```
+import 'package:kurdish_localization/kurdish_localization.dart';
+```
+
+### Use it
+
+```
+MaterialApp(
+      localizationsDelegates: [
+        ...
+        KuMaterialLocalizations.delegate,
+        KuWidgetLocalizations.delegate
+      ],
+      supportedLocales: [
+        const Locale('ku', ''),
+      ],
+      locale: Locale('ku'),
+    );
+```
