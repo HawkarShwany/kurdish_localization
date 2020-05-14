@@ -10,7 +10,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  kurdish_localization: ^0.0.1
+  kurdish_localization: <latest version>
 
 ```
 ### Install it
