@@ -1,5 +1,5 @@
 name: kurdish_localization
-description: Add support for Kurdish locale
+description: This package provides localization support for Kurdish locale 
 version: 0.0.1
 author: Hawkar Shwany <hh15321@auis.edu.krd>
 homepage: https://github.com/HawkarShwany/kurdish_localization.git
