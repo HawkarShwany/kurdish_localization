@@ -2,6 +2,7 @@ name: kurdish_localization
 description: This package provides localization support for Kurdish locale 
 version: 0.0.4
 # author: Hawkar Shwany <hh15321@auis.edu.krd>
+# author: blueMix <bluemix.github.io>
 homepage: https://github.com/HawkarShwany/kurdish_localization.git
 
 environment:
